@@ -1,0 +1,24 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>LinkedIn Auto-Connect</title>
+    <link rel="stylesheet" href="./popup.css" />
+  </head>
+  <body>
+    <div class="wrap">
+      <h1>LinkedIn Auto-Connect</h1>
+
+      <label class="toggle">
+        <input id="enabledToggle" type="checkbox" />
+        <span class="slider"></span>
+        <span class="label">Auto-connect on LinkedIn search results</span>
+      </label>
+
+      <p id="status" class="status">Status: <strong>Off</strong></p>
+      <p class="note">Works on <code>linkedin.com/search/results</code> only.</p>
+      <p class="subtle">Tip: keep your daily invites low to avoid rate limits.</p>
+    </div>
+    <script src="./popup.js" defer></script>
+  </body>
+</html>
