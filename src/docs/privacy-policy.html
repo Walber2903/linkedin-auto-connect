@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Privacy Policy — LinkedIn Auto-Connect (Chrome Extension)</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <style>
+    body{font:16px/1.6 system-ui,-apple-system,Segoe UI,Roboto,Ubuntu,Helvetica,Arial,sans-serif;margin:40px;color:#111}
+    main{max-width:800px;margin:0 auto}
+    h1{font-size:1.9rem;margin-bottom:0.25rem}
+    h2{margin-top:2rem}
+    code,pre{background:#f6f8fa;border:1px solid #e5e7eb;border-radius:6px;padding:2px 6px}
+    a{color:#0a66c2;text-decoration:none}
+    a:hover{text-decoration:underline}
+    .muted{color:#555}
+  </style>
+</head>
+<body>
+<main>
+  <h1>Privacy Policy</h1>
+  <p class="muted">Last updated: 01 Sep 2025</p>
+
+  <p><strong>LinkedIn Auto-Connect (Chrome Extension)</strong> helps you automate “Connect” clicks on
+    LinkedIn search results pages with conservative limits. This policy explains what data we collect and how it’s used.</p>
+
+  <h2>Summary</h2>
+  <ul>
+    <li>We <strong>do not collect, transmit, sell, or share personal data</strong>.</li>
+    <li>All processing happens <strong>locally</strong> in your browser.</li>
+    <li>We <strong>do not use analytics</strong>, ads, or any tracking.</li>
+  </ul>
+
+  <h2>Data We Handle</h2>
+  <p>The extension operates only on <code>linkedin.com/search/results*</code> pages and uses a few Chrome Extension APIs:</p>
+  <ul>
+    <li><strong>activeTab</strong>: runs on the active LinkedIn search tab when you toggle it on.</li>
+    <li><strong>host permissions</strong> (<code>https://www.linkedin.com/*</code>): allows the content script to read the page to find “Connect” buttons and click them.</li>
+    <li><strong>scripting</strong>: injects the packaged content script on matching pages. <em>No remote code is ever fetched or executed.</em></li>
+    <li><strong>storage</strong>: stores simple local settings (e.g., on/off, debug flag, per-run counters). <em>Not synced, not transmitted.</em></li>
+  </ul>
+
+  <h2>What We Do <em>Not</em> Do</h2>
+  <ul>
+    <li>No servers, no telemetry, no third-party SDKs.</li>
+    <li>No collection or transfer of LinkedIn data outside your device.</li>
+    <li>No ads or profiling.</li>
+  </ul>
+
+  <h2>Retention</h2>
+  <p>Only minimal local settings are kept via <code>chrome.storage.local</code>. You can remove them by uninstalling the extension or clearing site data.</p>
+
+  <h2>User Controls</h2>
+  <ul>
+    <li>Toggle the extension off in the popup.</li>
+    <li>Disable it on <code>chrome://extensions/</code> or uninstall it at any time.</li>
+  </ul>
+
+  <h2>Children’s Privacy</h2>
+  <p>This extension is intended for general audiences and does not target children.</p>
+
+  <h2>Changes</h2>
+  <p>We may update this policy. Changes will be posted at this URL with an updated “Last updated” date.</p>
+
+  <h2>Contact</h2>
+  <p>Questions? Email: <a href="mailto:walber.m.e@gmail.com">walber.m.e@gmail.com</a></p>
+
+  <hr>
+  <p class="muted">This project is not affiliated with, endorsed by, or maintained by LinkedIn.</p>
+</main>
+</body>
+</html>
