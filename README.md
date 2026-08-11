@@ -5,6 +5,7 @@ Safely automate **Connect** clicks on LinkedIn **search results** to speed up re
 > ⚠️ **Disclaimer**  
 > Automating interactions on LinkedIn may violate the platform’s Terms of Service.  
 > Use **for educational purposes only**, at your own risk. Avoid spam. Keep invite rates **very low**.
+> [**Download LinkedIn Auto Connect Search**](https://chromewebstore.google.com/detail/linkedin-auto-connect-sea/ahgjfpjkbjceidjnkndnhnnoagphblap?utm_source=ext_app_menu)
 
 ---
 
